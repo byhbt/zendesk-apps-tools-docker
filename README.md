@@ -6,8 +6,10 @@ Dockerize Zendesl apps tools (zaf)
 
 * Alpine Ruby 2.3
 
+### Components:
+* https://developer.zendesk.com/apps/docs/developer-guide/using_sdk
 
-### How to use it
+### How to execute zat?
 ```bash
 thanh@co:~/dist$ docker run -p 4567:4567 -v ${PWD}:/data -ti zendesk-app-tools zat 
 Commands:
@@ -22,6 +24,12 @@ Commands:
   zat validate          # Validate your app
   zat version, -v       # Print the version
 ```
+
+### How to run zat server?
+```Bash
+docker run -p 4567:4567 -v ${PWD}:/data -ti zendesk-app-tools zat server --bind 0.0.0.0
+```
+Then go to https://subdomain.zendesk.com/agent/?zat=true (replace "subdomain" with your subdomain)
 
 ### Screenshot(s):
 (update later)
