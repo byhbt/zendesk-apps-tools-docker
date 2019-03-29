@@ -12,7 +12,10 @@ RUN set -ex  \
     && rm -rf /var/cache/apk/* 
 
 WORKDIR /data
+COPY run.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/run.sh
+ENTRYPOINT ["run.sh"]
 
-CMD ["zat", "server", "-b", "0.0.0.0"]
+CMD ["start"]
 
 EXPOSE 4567
