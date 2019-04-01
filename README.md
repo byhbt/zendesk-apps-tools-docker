@@ -9,6 +9,9 @@ Dockerize Zendesl apps tools (zaf)
 ### Components:
 * https://developer.zendesk.com/apps/docs/developer-guide/using_sdk
 
+### Tutorials:
+* https://blog.steve.ly/a-quickstart-guide-to-building-zendesk-apps
+
 ### How to execute zat?
 ```bash
 thanh@co:~/dist$ docker run -p 4567:4567 -v ${PWD}:/data -ti zendesk-app-tools zat 
