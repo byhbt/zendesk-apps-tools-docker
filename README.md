@@ -1,6 +1,6 @@
 # Zendesk apps tools in Docker
 
-Dockerize Zendesl apps tools (zaf)
+Dockerize Zendesk apps tools (zaf)
 
 ### Components:
 
