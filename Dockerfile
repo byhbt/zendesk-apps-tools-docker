@@ -1,10 +1,11 @@
-FROM ruby:2.3-alpine
+FROM ruby:2.7-alpine
 
 RUN gem install rake
 
 RUN set -ex  \
     && apk add --update \
         nodejs \
+        shared-mime-info \
     && apk add --virtual build-dependencies \
            build-base \
            ruby-dev \
