@@ -34,5 +34,16 @@ docker run -p 4567:4567 -v ${PWD}:/data -ti zendesk-app-tools zat server --bind 
 ```
 Then go to https://subdomain.zendesk.com/agent/?zat=true (replace "subdomain" with your subdomain)
 
-### Screenshot(s):
-(update later)
+
+### Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/byhbt/zendesk-apps-tools-docker/issues). You can also take a look at the [contributing guide](https://github.com/byhbt/zendesk-apps-tools-docker/wiki/Contribute).
+
+### Show your support
+
+Give a ⭐️ if this project helped you!
+
+### License
+
+Copyright © 2021 [Thanh Huynh](https://github.com/byhbt).<br />
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
