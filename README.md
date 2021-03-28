@@ -4,7 +4,7 @@ Dockerize Zendesk apps tools (zaf)
 
 ### Components:
 
-* Alpine Ruby 2.3
+* Alpine Ruby 2.7
 
 ### Components:
 * https://developer.zendesk.com/apps/docs/developer-guide/using_sdk
